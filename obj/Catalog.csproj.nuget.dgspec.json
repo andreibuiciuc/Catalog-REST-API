@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\Catalog\\Catalog.csproj": {}
+    "D:\\projects\\catalog\\Catalog.csproj": {}
   },
   "projects": {
-    "D:\\projects\\Catalog\\Catalog.csproj": {
+    "D:\\projects\\catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "D:\\projects\\catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "D:\\projects\\Catalog\\Catalog.csproj",
+        "projectPath": "D:\\projects\\catalog\\Catalog.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\Catalog\\obj\\",
+        "outputPath": "D:\\projects\\catalog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

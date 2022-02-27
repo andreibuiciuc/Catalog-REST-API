@@ -8,11 +8,11 @@ namespace Catalog.Controllers
     [Route("items")]
     public class ItemsController : ControllerBase
     {
-        private readonly InMemoryRepository repository; // not ideal to introduce this explicitly dependency here
+        private readonly IItemsRepository repository;
 
-        public ItemsController()
+        public ItemsController(IItemsRepository repository)
         {
-            repository = new InMemoryRepository();
+            this.repository = repository;
         }
 
         // GET /items

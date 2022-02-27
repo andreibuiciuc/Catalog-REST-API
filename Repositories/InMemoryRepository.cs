@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Catalog.Repositories
 {
-    public class InMemoryRepository
+    public class InMemoryRepository : IItemsRepository
     {
         private readonly List<Item> items = new()
         {
